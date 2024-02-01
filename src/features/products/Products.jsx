@@ -46,7 +46,7 @@ function Products() {
             <div className="flex flex-col justify-center items-center px-9 py-10 rounded-md space-y-6 bg-slate-300 border border-slate-500">
                 <h4 className="text-lg ">quote # {id}</h4>
 
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center w-[60%]">
                     {status === "Loading" ? (
                         <p>Loading...</p>
                     ) : (
