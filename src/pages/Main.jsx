@@ -12,7 +12,7 @@ function Main() {
 
     function handelClick() {
         if (user === "") navigate("login");
-        else navigate("product-details");
+        else navigate("/product-details");
     }
 
     return (
