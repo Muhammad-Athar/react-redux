@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 
 import Button from "../ui/Button";
-import FormRow from "../ui/FormROw";
+import FormRow from "../ui/FormRow";
 
 import { setAuthenticatedUser } from "../features/user/userSlice";
 
